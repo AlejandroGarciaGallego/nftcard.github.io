@@ -1,0 +1,117 @@
+:root{
+  --fondo:hsl(216, 50%, 16%);
+  --texto-azul: hsl(178, 100%, 50%);
+  --texto-gris: hsl(215, 51%, 70%);
+  --color-linea: hsl(215, 32%, 27%);
+  
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Akshar', sans-serif;
+  font-size: 18px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  margin-top: 1rem;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+
+#tarjeta{
+  background-color: var(--fondo) ;
+  width: 300px; 
+  height: 530px;
+  margin: 0 auto;
+  color: var(--texto-gris);
+  margin-top: 10rem;
+  border-radius: 0.75rem;
+  
+  
+}
+
+#titulo{
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  
+}
+
+#imagen{
+  width: 270px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  
+}
+
+#descripcion{
+  color: var(--texto-gris);
+  font-size: 15px;
+  width: 250px;
+  padding: 15px;
+  padding-top: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+}
+
+#ethereum{
+  color: var(--texto-azul);
+  padding: 15px;
+  margin-top: 2px;
+  padding-top: 2px;
+  float: left;
+  
+
+
+}
+
+#reloj{
+  float: right;
+  padding: 15px;
+  margin-top: 2px;
+  padding-top: 2px;
+  
+  
+}
+
+#linea{
+  color: var(--texto-gris);
+  padding: 15px;
+  padding-top: 40px;
+  padding-bottom: 2px;
+
+}
+
+#developer{
+
+  
+  width: 35px;
+  padding: 15px;
+  padding-top: 10px;
+  border-image: 1rem;
+  border-color: white;
+  vertical-align: middle;
+  
+}
+
+#contenedor-developer{
+  float: left;
+  width: 300px;
+  margin-top: 2px;
+  text-align: left;
+  font-size: 13px;
+
+  
+}
+
+
+
+ 
